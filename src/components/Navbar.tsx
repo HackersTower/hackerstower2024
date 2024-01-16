@@ -29,7 +29,7 @@ const Navbar = (props: Props) => {
       </Link>
       <Button className="bg-[#bd1e59] text-white  hover:bg-[#a31648]" >Login</Button>
     <Button className="bg-[#bd1e59] text-white hover:bg-[#a31648]" >Sign</Button>
-      {/* <br className=' block'/> */}
+
       
     </div>
     
