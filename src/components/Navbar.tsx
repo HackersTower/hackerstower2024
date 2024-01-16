@@ -7,7 +7,7 @@ const Navbar = (props: Props) => {
   return (
     <div className='bg-[#121212] text-white '>
     <nav className="py-4 px-8 flex lg:flex-row flex-col  justify-between items-center border-b border-gray-700">
-    <span className="text-2xl font-bold">HackersTower</span>
+    <span className="text-2xl font-bold cursor-pointer"> <Link className='text-white' href="/">HackersTower </Link></span>
     <div className="space-x-4">
       <Link className="text-gray-300 hover:text-white" href="#">
         Home
@@ -27,8 +27,12 @@ const Navbar = (props: Props) => {
       <Link className="text-gray-300 hover:text-white" href="#">
         Contact Us
       </Link>
+      <Link href="/login">
       <Button className="bg-[#bd1e59] text-white  hover:bg-[#a31648]" >Login</Button>
+      </Link>
+      <Link href="/sign">
     <Button className="bg-[#bd1e59] text-white hover:bg-[#a31648]" >Sign</Button>
+    </Link>
 
       
     </div>
