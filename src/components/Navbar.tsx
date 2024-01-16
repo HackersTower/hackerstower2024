@@ -6,7 +6,7 @@ type Props = {}
 const Navbar = (props: Props) => {
   return (
     <div className='bg-[#121212] text-white '>
-    <nav className="py-4 px-8 flex justify-between items-center border-b border-gray-700">
+    <nav className="py-4 px-8 flex lg:flex-row flex-col  justify-between items-center border-b border-gray-700">
     <span className="text-2xl font-bold">HackersTower</span>
     <div className="space-x-4">
       <Link className="text-gray-300 hover:text-white" href="#">
@@ -27,8 +27,10 @@ const Navbar = (props: Props) => {
       <Link className="text-gray-300 hover:text-white" href="#">
         Contact Us
       </Link>
-      <Button className="bg-[#bd1e59] text-white hover:bg-[#a31648]" >Login</Button>
+      <Button className="bg-[#bd1e59] text-white  hover:bg-[#a31648]" >Login</Button>
     <Button className="bg-[#bd1e59] text-white hover:bg-[#a31648]" >Sign</Button>
+      {/* <br className=' block'/> */}
+      
     </div>
     
   </nav>
