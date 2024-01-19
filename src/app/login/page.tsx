@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 type Props = {}
 
-const page = (props: Props) => {
+const Login = (props: Props) => {
   const [info,setInfo] = useState({email:"",password:""});
   const onChangeHandler = (e:any)=>{
     e.preventDefault();
@@ -29,4 +29,4 @@ const page = (props: Props) => {
   )
 }
 
-export default page
+export default Login
